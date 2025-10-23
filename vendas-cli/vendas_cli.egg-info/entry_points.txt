@@ -1,0 +1,2 @@
+[console_scripts]
+vendas-cli = vendas_cli.cli:main

@@ -1,0 +1,13 @@
+[project]
+name = "vendas-cli"
+version = "0.1.0"
+description = "CLI para gerar relatório de vendas"
+readme = "README.md"
+authors = [ { name = "Autor" } ]
+
+[project.scripts]
+vendas-cli = "vendas_cli.cli:main"
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"

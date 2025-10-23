@@ -1,0 +1,19 @@
+Metadata-Version: 2.4
+Name: vendas-cli
+Version: 0.1.0
+Summary: CLI para gerar relatório de vendas
+Author: Autor
+Description-Content-Type: text/markdown
+
+# vendas-cli
+
+Instalação:
+```
+pip install .
+```
+
+Uso:
+```
+vendas-cli /mnt/data/"vendas_exemplo - python 1.csv" --format text
+vendas-cli /mnt/data/"vendas_exemplo - python 1.csv" --format json --start 2025-01-01 --end 2025-03-31
+```
